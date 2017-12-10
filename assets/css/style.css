@@ -1,0 +1,149 @@
+body{
+ 	padding-top:70px;
+}
+
+.container-fluid{ /*creating a fluid container so the webpage fits any size screen*/
+	max-width:100%;
+}
+
+/*navigation styling*/
+.navbar{
+	background-color:#fff;
+}
+
+.navbar li{
+	padding-top:20px;
+}
+
+454241
+
+h3 a{
+	font-size:22px;
+}
+
+a{
+	color:#000;
+	font-size:17px;
+	position:relative;
+}
+
+li > a:hover{ /*making the link a child of the li*/
+	border-bottom:solid 5px #fff;
+}
+
+
+li > a:active{
+	top:2px;/*make the button when pressed appear to move*/
+}
+
+
+/*card styling*/
+
+.row a{
+	text-decoration:1px solid;
+}
+
+
+.card-footer{
+	background-color:#fff;
+	width:98%;	/*width for desktop*/
+	height:30px;
+}
+
+.card-footer h4{
+	color:#000;
+	font-size:17px;
+}
+
+/*creating box shadow - http://www.cssmatic.com/box-shadow*/
+.img-responsive, .card-footer{
+  -webkit-box-shadow: 0 35px 40px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 35px 40px -10px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+}
+
+#portfolio,#about,#contactForm{
+	padding-top:20px;
+}
+
+
+
+
+#beeRandom,#beePath,#r2d2,#gamesDesigner,#formValidation,#function,#berite{
+	margin-top:20px;
+}
+
+
+
+
+/*This bit of CSS is used to hide the additionalRows when the page is loaded*/
+.additionalRows{
+	display:none;
+}
+
+
+
+/*styling the button that shows the additional portfolio rows*/
+#portfolioAdditions{
+	margin:20px 15px 0px 0px;
+}
+
+
+
+p{
+	font-family:"arial";
+	font-size:20px;
+}
+
+h2{
+	border-bottom:5px solid #59c3c3;
+}
+
+
+h1,h2,h3,h4,h5{
+	font-family:"arial";
+	color:#000;
+}
+
+
+.skills{
+	font-size:16px;
+}
+
+.btn{
+	background-color:#59c3c3;
+}
+
+
+#cvButton{
+	margin-top:30px;
+}
+
+
+/*footer styling*/
+footer{
+	background-color:#403f3f;
+	margin-top:20px;
+}
+
+footer p,{
+	color:#fff;
+	font-size:17px;
+}
+
+.copyright, .social, .contactDetails{
+	padding:10px;
+	background-color:#403f3f;
+}
+
+
+#facebook, #twitter{
+	padding-right:20px;
+	float:left;
+}
+
+
+
+
+
