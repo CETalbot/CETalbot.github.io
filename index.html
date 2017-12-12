@@ -15,53 +15,45 @@
 
 	<div class="container-fluid">
    	 <!-- Fixed navbar -->
+   	 <header>
+   	 	<div class="logo col-lg-4">
+   	 	<img class="img-responsive img-rounded" src="assets/img/uclan-logo.png" alt="UCLAN Logo" style="float:left; margin-top:25px">
+   	 	</div>
+   	 	<div class="heading col-lg-4">
+   	 		<h1>School of Forensics and Applied Sciences</h1>
+		</div>	
     	<nav class="navbar navbar-default navbar-fixed-top">
-     	 <div class="container-fluid">
-       	 <div class="navbar-header">
+       	 <div class="navbar-header col-lg-4" style="float:right;">
          	 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
            		 <span class="sr-only">Toggle navigation</span>
            	 	 <span class="icon-bar"></span>
              	 <span class="icon-bar"></span>
              	 <span class="icon-bar"></span>
-          	</button>
-          	<h1>School of Forensics and Applied Sciences</h1>
-			<img class="img-responsive img-rounded" src="assets/img/uclan-logo.png" alt="UCLAN Logo" style="float:right; margin-top:25px">
+          	</button>    	
         </div>
+        	
         	<!--/nav-collapse -->
-        <div id="navbar" class="navbar-collapse collapse">
+        <div id="navbar" class="navbar-collapse collapse col-lg-4" style="float:right;">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#about">About</a></li>
             <li><a href="#about">Gallery</a></li>
             <li><a href="#footer">Contact</a></li>
+           </ul>
         </div>
-      </div>
-    </nav>
-
+    	</nav>
+	</header>
 
 
 <!--Start of the About Section-->
 	<div class="col-xs-12">
 		<div id="about">
 			<div class="row">
-				<div class="col-xs-12 col-md-8 col-lg-8">
+				<div class="col-lg-12">
 				<h2>About</h2>
-				<p>I am an enthusiastic Front End Web Developer who enjoys manipulating web pages using JavaScript to create fun and quirky interactivity. I love learning about new technology, particularly how it can be implemented to enhance user interactions.</p>
-				<p>Outside of Web Development, my hobbies include watching and attending MotorSport and Football events, along with many other sports.</p>
+				<p>Field Work is a key component of Geography, Biology and Environment courses at UCLAN. It provides students with practical
+				"hands on" experience and enhances material covered in lectures. Students take part in day long excursions and short residential trips throughout their studies, in addition to the opportunity of an extended international field trip in final year.</p>
+				<p>These pages should give you an idea of the variety of locations that we visit.</p>
 
-				<h3>Skills</h3>
-				<ul class="skills">
-					<li class="col-xs-12 col-md-6">HTML5</li>
-					<li class="col-xs-12 col-md-6">CSS3</li>
-					<li class="col-xs-12 col-md-6">JavaScript</li>
-					<li class="col-xs-12 col-md-6">Version Control - Using Git and Github</li>
-					<li class="col-xs-12 col-md-6">Canvas</li>
-					<li class="col-xs-12 col-md-6">Phototshop</li>
-					<li class="col-xs-12 col-md-6">Illustrator</li>
-					</ul>
-
-				<div class=" col-xs-12 btn-wrapper">
-					<a class="btn btn-default pull-left" id="cvButton" href="assets/Natalie_CV.docx">Click Here To View My CV</a>
-				</div>
 			</div>
 
 
@@ -76,8 +68,10 @@
 	<div class="col-xs-12">
 		<div id="gallery">
 			<div class="row">
-				<h2>Gallery</h2>
-				<p href="gallery.html">See More</p>
+				<div class="col-lg-12">
+					<h2>Gallery</h2>
+					<a href="gallery.html">See More</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -88,22 +82,22 @@
 
 <!--Start of the Footer-->
 	<footer class="footer">
-		<div class="copyright col-lg-6" style="height:100px">
-			<p>&copy; University of Central Lancashire</p>
+		<div class="copyright col-lg-4" style="height:200px">
+			<p id="name">&copy; University of Central Lancashire</p>
 		</div>
 
 
-		<div class="social col-lg-6" style="height:100px">
-			<a href="https://www.facebook.com/natalie.chappelhow" target="_~blank">
+		<div class="social col-lg-4" style="height:200px">
+			<a href="https://www.facebook.com/natalie.chappelhow" target="_~blank" id="facebook">
 				<img id="facebook" class="img-responsive img rounded" src="assets/img/socialMedia/facebook.png" alt="Facebook">
 			</a>
-			<a href="https://www.linkedin.com/in/natalie-chappelhow" target="_blank">
+			<a href="https://www.linkedin.com/in/natalie-chappelhow" target="_blank" id="twitter">
 				<img id="twitter" class="img-responsive img-rounded" src="assets/img/socialMedia/twitter.png" alt="Twitter">
 			</a>
 		</div>
 
 
-		<div class="contactDetails col-lg-6" style="height:100px">
+		<div class="contactDetails col-lg-4" style="height:200px">
 			<p>UCLAN Preston,</p>
 			<p>Lancashire, UK</p>
 			<p>PR1 2HE</p>

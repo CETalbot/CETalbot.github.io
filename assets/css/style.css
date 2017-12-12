@@ -25,16 +25,10 @@ a{
 	color:#000;
 	font-size:17px;
 	position:relative;
-}
-
-li > a:hover{ /*making the link a child of the li*/
-	border-bottom:solid 5px #fff;
+	text-decoration:none;
 }
 
 
-li > a:active{
-	top:2px;/*make the button when pressed appear to move*/
-}
 
 
 /*card styling*/
@@ -44,46 +38,13 @@ li > a:active{
 }
 
 
-.card-footer{
-	background-color:#fff;
-	width:98%;	/*width for desktop*/
-	height:30px;
-}
-
-.card-footer h4{
-	color:#000;
-	font-size:17px;
-}
-
-/*creating box shadow - http://www.cssmatic.com/box-shadow*/
-.img-responsive, .card-footer{
-  -webkit-box-shadow: 0 35px 40px -10px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 35px 40px -10px rgba(0, 0, 0, 0.1);
-  -webkit-transition: all ease-in-out 300ms;
-  transition: all ease-in-out 300ms;
-}
-
 #portfolio,#about,#contactForm{
 	padding-top:20px;
 }
 
-
-
-
-#beeRandom,#beePath,#r2d2,#gamesDesigner,#formValidation,#function,#berite{
-	margin-top:20px;
+#about{
+	margin-top: 100px;
 }
-
-
-
-
-/*This bit of CSS is used to hide the additionalRows when the page is loaded*/
-.additionalRows{
-	display:none;
-}
-
-
-
 /*styling the button that shows the additional portfolio rows*/
 #portfolioAdditions{
 	margin:20px 15px 0px 0px;
@@ -94,10 +55,6 @@ li > a:active{
 p{
 	font-family:"arial";
 	font-size:20px;
-}
-
-h2{
-	border-bottom:5px solid #59c3c3;
 }
 
 
@@ -123,24 +80,29 @@ h1,h2,h3,h4,h5{
 
 /*footer styling*/
 footer{
-	background-color:#403f3f;
-	margin-top:20px;
+	margin-top:0px;
+	width:100%;
 }
 
-footer p,{
+/*footer p,{
 	color:#fff;
-	font-size:17px;
-}
+	font-size:15px;
+}*/
 
 .copyright, .social, .contactDetails{
-	padding:10px;
-	background-color:#403f3f;
+	padding:0px;
+	background-color:#252220
+	
 }
 
 
 #facebook, #twitter{
-	padding-right:20px;
-	float:left;
+	/*position:50%;
+	margin-left:50%;*/
+	float:right;
+}
+.contactDetails{
+	float:right;
 }
 
 
