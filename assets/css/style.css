@@ -25,15 +25,68 @@ a{
 	color:#000;
 	font-size:17px;
 	position:relative;
-	text-decoration:none;
 }
 
-.heading{
-	margin-top: 30px;
+li > a:hover{ /*making the link a child of the li*/
+	border-bottom:solid 5px #fff;
 }
 
-#about{
+
+li > a:active{
+	top:2px;/*make the button when pressed appear to move*/
+}
+
+
+/*card styling*/
+
+.row a{
+	text-decoration:1px solid;
+}
+
+
+.card-footer{
+	background-color:#fff;
+	width:98%;	/*width for desktop*/
+	height:30px;
+}
+
+.card-footer h4{
+	color:#000;
+	font-size:17px;
+}
+
+/*creating box shadow - http://www.cssmatic.com/box-shadow*/
+.img-responsive, .card-footer{
+  -webkit-box-shadow: 0 35px 40px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 35px 40px -10px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+}
+
+#portfolio,#about,#contactForm{
 	padding-top:20px;
+}
+
+
+
+
+#beeRandom,#beePath,#r2d2,#gamesDesigner,#formValidation,#function,#berite{
+	margin-top:20px;
+}
+
+
+
+
+/*This bit of CSS is used to hide the additionalRows when the page is loaded*/
+.additionalRows{
+	display:none;
+}
+
+
+
+/*styling the button that shows the additional portfolio rows*/
+#portfolioAdditions{
+	margin:20px 15px 0px 0px;
 }
 
 
@@ -43,6 +96,10 @@ p{
 	font-size:20px;
 }
 
+h2{
+	border-bottom:5px solid #59c3c3;
+}
+
 
 h1,h2,h3,h4,h5{
 	font-family:"arial";
@@ -50,28 +107,43 @@ h1,h2,h3,h4,h5{
 }
 
 
-/*footer styling*/
-footer{
-	margin-top:0px;
-	width:100%;
+.skills{
+	font-size:16px;
 }
 
-/*footer p,{
+.btn{
+	background-color:#59c3c3;
+}
+
+
+#cvButton{
+	margin-top:30px;
+}
+
+
+/*footer styling*/
+footer{
+	background-color:#252220;
+	margin-top:20px;
+}
+
+footer p,{
 	color:#fff;
-	font-size:15px;
-}*/
+	font-size:17px;
+}
 
 .copyright, .social, .contactDetails{
-	padding:0px;
-	background-color:#252220
+	padding:10px;
+	background-color:#403f3f;
 }
 
 
 #facebook, #twitter{
-	/*position:50%;
-	margin-left:50%;*/
-	float:right;
+	padding-right:20px;
+	float:left;
 }
-.contactDetails{
-	float:right;
-}
+
+
+
+
+
