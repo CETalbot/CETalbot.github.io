@@ -28,26 +28,12 @@ a{
 	text-decoration:none;
 }
 
-
-
-
-/*card styling*/
-
-.row a{
-	text-decoration:1px solid;
-}
-
-
-#portfolio,#about,#contactForm{
-	padding-top:20px;
+.heading{
+	margin-top: 30px;
 }
 
 #about{
-	margin-top: 100px;
-}
-/*styling the button that shows the additional portfolio rows*/
-#portfolioAdditions{
-	margin:20px 15px 0px 0px;
+	padding-top:20px;
 }
 
 
@@ -61,20 +47,6 @@ p{
 h1,h2,h3,h4,h5{
 	font-family:"arial";
 	color:#000;
-}
-
-
-.skills{
-	font-size:16px;
-}
-
-.btn{
-	background-color:#59c3c3;
-}
-
-
-#cvButton{
-	margin-top:30px;
 }
 
 
@@ -92,7 +64,6 @@ footer{
 .copyright, .social, .contactDetails{
 	padding:0px;
 	background-color:#252220
-	
 }
 
 
@@ -104,8 +75,3 @@ footer{
 .contactDetails{
 	float:right;
 }
-
-
-
-
-
