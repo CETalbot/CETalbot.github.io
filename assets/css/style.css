@@ -11,21 +11,24 @@ body{
 .navbar{
 	background-color:#BE0F34;
 	margin:auto;
+	min-height:30px;
 }
 
-454241
+#navbar{
+	float:right;
+}
+
 
 h3 a{
 	font-size:22px;
 }
 
 a{
-	color:#fff;
+	color:#000;
 	font-size:17px;
 	position:relative;
 	text-decoration:none;
 }
-
 
 #about{
 	padding-top:20px;
@@ -46,28 +49,36 @@ h1,h2,h3,h4,h5{
 
 
 /*footer styling*/
-footer{
-	margin-top:0px;
-	width:100%;
-}
-
-footer p,{
+footer p{
 	color:#fff;
 	font-size:15px;
 }
 
-.copyright, .social, .contactDetails{
-	padding:0px;
+.copyright, .social{
 	background-color:#252220;
 	float:left;
 }
 
-
-#facebook, #twitter{
-	/*position:50%;
-	margin-left:50%;*/
-	float:right;
+.copyright p{
+	margin-left:20px;
 }
+
+
+
+#twitter{
+	float:right;
+	padding-right:50px;
+}
+
+#facebook{
+	float:left;
+}
+
 .contactDetails{
 	float:right;
+	background-color:#252220;
+}
+
+.contactDetails p{
+	margin-left:20px;
 }
