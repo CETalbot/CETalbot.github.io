@@ -1,6 +1,3 @@
-body{
- 	padding-top:70px;
-}
 
 body{
  	padding-top:10px;
@@ -12,12 +9,10 @@ body{
 
 /*navigation styling*/
 .navbar{
-	background-color:#fff;
+	background-color:#BE0F34;
+	margin:auto;
 }
 
-.navbar li{
-	padding-top:20px;
-}
 
 454241
 
