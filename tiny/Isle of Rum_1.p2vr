@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig rev="15983" version="5.2.2">
+  <panorama>
+    <id>node1</id>
+    <input>
+      <patch>
+        <imagepatch>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>35</fov>
+          <roll>-2.93008</roll>
+          <aspectratio>1</aspectratio>
+          <applyafterlevelling>0</applyafterlevelling>
+          <locked>1</locked>
+          <quality>90</quality>
+          <filename>patches/Isle of Rum_1_patch.psd</filename>
+          <type>image</type>
+          <lastmodified>2017-12-15T12:15:54</lastmodified>
+        </imagepatch>
+        <imagepatch>
+          <pan>158.51</pan>
+          <tilt>-26.86</tilt>
+          <fov>35</fov>
+          <roll>0</roll>
+          <aspectratio>1</aspectratio>
+          <applyafterlevelling>0</applyafterlevelling>
+          <locked>1</locked>
+          <quality>90</quality>
+          <filename>patches/Isle of Rum_1_patch_1.psd</filename>
+          <type>image</type>
+          <lastmodified>2017-12-15T12:16:42</lastmodified>
+        </imagepatch>
+      </patch>
+      <type>auto</type>
+      <filename>Isle of Rum_1.JPG</filename>
+      <levelpitch>0</levelpitch>
+      <levelroll>0</levelroll>
+    </input>
+    <viewingparameter>
+      <pan/>
+      <tilt/>
+      <fov/>
+      <flyinstart/>
+      <pannorth>0</pannorth>
+    </viewingparameter>
+    <userdata>
+      <tags>tiny</tags>
+    </userdata>
+    <floorplans/>
+    <hotspots/>
+    <output>
+      <thumb>
+        <html>
+          <enabled>0</enabled>
+          <filename>output-2/index.html</filename>
+        </html>
+        <facequality/>
+        <filename>output-2/pano.png</filename>
+      </thumb>
+      <htmlcss>
+        <html>
+          <enabled>1</enabled>
+          <filename>output-2/index_1.html</filename>
+          <values>
+            <value id="css"></value>
+            <value id="gginfo">false</value>
+            <value id="gyro">false</value>
+            <value id="gyrodisable">false</value>
+            <value id="gyronorth">false</value>
+            <value id="gyroroll">false</value>
+            <value id="gyrosmooth">true</value>
+            <value id="jsxml">false</value>
+            <value id="parseanchor">false</value>
+            <value id="swf"></value>
+            <value id="swffirst">false</value>
+            <value id="swfgeneric">false</value>
+          </values>
+        </html>
+        <facequality/>
+        <transition/>
+        <autorotate/>
+        <soundstransition/>
+        <flyintransition/>
+        <hotspottext/>
+        <hotspotstyle/>
+        <tilesize>1344</tilesize>
+        <filename>output-2/pano.xml</filename>
+        <skinfile>uni3.ggsk</skinfile>
+      </htmlcss>
+    </output>
+    <streetview/>
+    <streetviewproject/>
+    <sounds/>
+  </panorama>
+</pano2vrconfig>
