@@ -18,6 +18,9 @@ body{
 	float:right;
 }
 
+.header, .image{
+	padding:0px;
+}
 
 h3 a{
 	font-size:22px;
