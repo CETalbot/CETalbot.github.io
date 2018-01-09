@@ -57,6 +57,7 @@ footer p{
 .copyright, .social{
 	background-color:#252220;
 	float:left;
+	padding-top:20px;
 }
 
 .copyright p{
@@ -64,10 +65,9 @@ footer p{
 }
 
 
-
 #twitter{
 	float:right;
-	padding-right:50px;
+	padding-right:40px;
 }
 
 #facebook{
@@ -77,8 +77,11 @@ footer p{
 .contactDetails{
 	float:right;
 	background-color:#252220;
+	padding-top:10px;
+	padding-left:325px;
 }
 
 .contactDetails p{
 	margin-left:20px;
 }
+
