@@ -74,33 +74,41 @@ footer p{
 
 .copyright, .social{
 	background-color:#252220;
-	float:left;
-	padding-top:20px;
+	text-align:center;
 }
 
 .copyright p{
-	margin-left:20px;
+	margin-top:20px;
 }
 
 
 #twitter{
-	float:right;
-	padding-right:40px;
+	margin-top:10px;
+	margin-left:10%;
+	display:inline;
 }
 
 #facebook{
-	float:left;
+	margin-top:10px;
+	display:inline;
 }
 
 .contactDetails{
 	float:right;
 	background-color:#252220;
-	padding-top:10px;
-	padding-left:325px;
+	text-align:right;
+
+}
+
+@media (max-width: 768px) {
+	.copyright, .contactDetails{
+		text-align:center;
+	}
 }
 
 .contactDetails p{
 	margin-left:20px;
+	margin-top:10px;
 }
 .galleryImages{
 	margin-left:5px;
