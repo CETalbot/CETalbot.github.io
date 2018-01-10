@@ -22,6 +22,10 @@ body{
 	padding:0px;
 }
 
+#headerImage{
+	max-width: 100%;
+	max-height: 100%;
+}
 h3 a{
 	font-size:22px;
 }
