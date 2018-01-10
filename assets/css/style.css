@@ -23,8 +23,8 @@ body{
 }
 
 #headerImage{
-	max-width: 100%;
-	max-height: 100%;
+	width: 100%;
+	height: 100%;
 }
 h3 a{
 	font-size:22px;
@@ -63,8 +63,8 @@ h1,h2,h3,h4,h5{
 /*footer styling*/
 
 footer{
-	max-width:100%;
-	max-height:100%;
+	width:100%;
+	height:100%;
 }
 
 footer p{
@@ -103,6 +103,10 @@ footer p{
 	margin-left:20px;
 }
 .galleryImages{
-	padding-left:5px;
-	padding-bottom: 100px;
+	margin-left:5px;
+	margin-bottom: 5px;
+
+	display: inline-block;
+	height: 200px;
+	width: 200px;
 }
