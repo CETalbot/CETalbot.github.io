@@ -102,6 +102,10 @@ footer p{
 .contactDetails p{
 	margin-left:20px;
 }
+.carouselImages{
+	width:70%;
+	height: 70%;
+}
 .galleryImages{
 	margin-left:5px;
 	margin-bottom: 5px;
@@ -109,4 +113,11 @@ footer p{
 	display: inline-block;
 	height: 200px;
 	width: 200px;
+}
+.your-class{
+	width: 100%;
+	display: inline;
+}
+.carousel{
+	display: inline;
 }
