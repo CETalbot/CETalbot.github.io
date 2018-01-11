@@ -13,3 +13,17 @@
 	  });
 	});
 
+	$(document).ready(function() {
+		$(".fancybox").fancybox({
+			   openEffect: 'elastic',
+	           closeEffect: 'elastic',
+	           showNavArrows: true,
+		helpers : {
+	        overlay : {
+	            css : {
+					 background : 'rgba(58, 42, 45, 0.95)',
+	            }
+	        }
+	    }
+	});
+	});
