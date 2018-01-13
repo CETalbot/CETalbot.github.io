@@ -8,17 +8,17 @@ body{
 }
 
 /*navigation styling*/
-.navbar{
+.navbar{ /*positioning the navbar - class*/
 	background-color:#BE0F34;
 	margin:auto;
 	min-height:30px;
 }
 
-#navbar{
+#navbar{ /*positioning the navbar - id*/
 	float:right;
 }
 
-.header, .image{
+.header, .image{ /*ensuring the header class and the image class for the header image have no padding*/
 	padding:0px;
 }
 
@@ -26,6 +26,7 @@ body{
 	width: 100%;
 	height: 100%;
 }
+
 h3 a{
 	font-size:22px;
 }
@@ -41,23 +42,44 @@ a{
 	padding-top:20px;
 }
 
-
+/*content styling*/
+h1,h2,h3,h4,h5{
+	font-family:"arial";
+	color:#000;
+}
 
 p{
 	font-family:"arial";
 	font-size:20px;
 }
 
-
-h1,h2,h3,h4,h5{
-	font-family:"arial";
-	color:#000;
-}
-
 #galleryLink{
 	color: #BE0F34;
 	float: right;
 	margin-bottom: 5px;
+}
+
+/*gallery styling*/
+.galleryImages{
+	margin-left:5px;
+	margin-bottom: 5px;
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+}
+
+/*carousel styling*/
+.carouselImages{
+	width:70%;
+	height: 70%;
+}
+
+.your-class{
+	width: 100%;
+	display: inline;
+}
+.carousel{
+	display: inline;
 }
 
 /*footer styling*/
@@ -94,38 +116,18 @@ footer p{
 }
 
 .contactDetails{
-	float:right;
 	background-color:#252220;
-	text-align:right;
-
+	text-align:center;
 }
 
-@media (max-width: 768px) {
+.contactDetails p{
+	margin-left:20px;
+	padding-top:10px;
+}
+
+@media (max-width: 768px) { /*media query for mobile view so the text is center aligned for the copyright and contactDetail classes*/
 	.copyright, .contactDetails{
 		text-align:center;
 	}
 }
 
-.contactDetails p{
-	margin-left:20px;
-	margin-top:10px;
-}
-.carouselImages{
-	width:70%;
-	height: 70%;
-}
-.galleryImages{
-	margin-left:5px;
-	margin-bottom: 5px;
-
-	display: inline-block;
-	height: 200px;
-	width: 200px;
-}
-.your-class{
-	width: 100%;
-	display: inline;
-}
-.carousel{
-	display: inline;
-}
