@@ -1,7 +1,7 @@
 	//carousel background code referenced to http://kenwheeler.github.io/slick/
 	$(document).ready(function(){
 	//the script will run once the HTML page has been loaded
-	  $(".your-class").slick({
+	  $(".carouselGallery").slick({
 		  lazyLoad: "ondemand",
 		  //shows three images when page is loaded
 		  slidesToShow: 3,
