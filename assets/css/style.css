@@ -1,0 +1,139 @@
+
+body{
+ 	padding-top:10px;
+}
+
+.container-fluid{ /*creating a fluid container so the webpage fits any size screen*/
+	max-width:100%;
+}
+
+/*navigation styling*/
+.navbar{ /*positioning the navbar - class*/
+	background-color:#BE0F34;
+	margin:auto;
+	min-height:30px;
+}
+
+#navbar{ /*positioning the navbar - id*/
+	float:right;
+}
+
+.header, .image{ /*ensuring the header class and the image class for the header image have no padding*/
+	padding:0px;
+}
+
+#headerImage{
+	width: 100%;
+	height: 100%;
+}
+
+h3 a{
+	font-size:22px;
+}
+
+a{
+	color:#000;
+	font-size:17px;
+	position:relative;
+	text-decoration:none;
+}
+
+#about{
+	padding-top:20px;
+}
+
+/*content styling*/
+h1,h2,h3,h4,h5{
+	font-family:"arial";
+	color:#000;
+}
+
+p{
+	font-family:"arial";
+	font-size:20px;
+}
+
+#galleryLink{
+	color: #BE0F34;
+	float: right;
+	margin-bottom: 5px;
+}
+
+/*gallery styling*/
+.galleryImages{
+	margin-left:5px;
+	margin-bottom: 5px;
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+}
+
+#thumbnail{
+	width:100px;
+	margin-right:12px;
+	display: inline-block;
+}
+
+/*carousel styling*/
+.carouselImages{
+	width:70%;
+	height: 70%;
+}
+
+.your-class{
+	width: 100%;
+	display: inline;
+}
+.carousel{
+	display: inline;
+}
+
+/*footer styling*/
+
+footer{
+	width:100%;
+	height:100%;
+}
+
+footer p{
+	color:#fff;
+	font-size:15px;
+}
+
+.copyright, .social{
+	background-color:#252220;
+	text-align:center;
+}
+
+.copyright p{
+	margin-top:20px;
+}
+
+
+#twitter{
+	margin-top:10px;
+	margin-left:10%;
+	display:inline;
+}
+
+#facebook{
+	margin-top:10px;
+	display:inline;
+}
+
+.contactDetails{
+	background-color:#252220;
+	text-align:center;
+}
+
+.contactDetails p{
+	margin-left:20px;
+	padding-top:10px;
+}
+
+@media (max-width: 768px) { /*media query for mobile view so the text is center aligned for the copyright and contactDetail classes*/
+	.copyright, .contactDetails{
+		text-align:center;
+	}
+}
+
