@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Chris Lowe 360</title>
+	<meta name="author" content="Wayne Casey, Natalie Chappelhow, Samuel Liles & Catherine Talbot.">
+	<link rel="stylesheet" href="assets/css/bootstrap.css"><!--Bootstrap referenced from https://getbootstrap.com/docs/3.3/-->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/fancybox/jquery.fancybox.css">
+	<script src="assets/js/jquery-3.2.1.min.js"></script><!--jQuery refernced from https://jquery.com/-->
+	<script type="text/javascript" src="assets/js/javascript.js"></script>
+	<script type="text/javascript" src="assets/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><!--jQuery referenced from https://developers.google.com/speed/libraries/-->
+</head>
+
+<body>
+	<div class="container-fluid"><!--creating a div class that is a full width container that spans the width of any viewport-->
+   	 <!-- Fixed navbar -->
+   	 <header>
+   	 	<div class="row"><!--row is used to help define the grid layout-->
+   	 		<!--adding the logo and the heading of the website. The different size columns are used to allow for the logo and the header to appear side by side-->
+	   	 	<div class="logo col-lg-3"><!--col is used to help define the grid layout-->
+		   	<!--UCLAN logo referenced - uclan.ac.uk -->
+		   	 	<a href="index.html">
+   	 				<img class="img-responsive img-rounded" src="assets/img/uclan-logo.png" alt="UCLAN Logo">
+   	 			</a>
+		   	</div>
+		   	 <div class="heading col-lg-9">
+		   	 		<h1>School of Forensic and Applied Sciences</h1>
+			 </div>
+		</div>
+	</header>
+	<!--creating a default navbar-->
+	<div class="row">
+    	<nav class="navbar navbar-default">
+	       	 <div class="navbar-header col-lg-12">
+	       	 	 <!--create the hamburger menu button-->
+	         	 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	           		 <span class="sr-only">Toggle navigation</span>
+	           	 	 <span class="icon-bar"></span>
+	             	 <span class="icon-bar"></span>
+	             	 <span class="icon-bar"></span>
+	          	</button>
+	         </div>
+	        	<!--/nav-collapse - creating the collapsable navbar (appears as a hamburger menu) -->
+	        <div id="navbar" class="navbar-collapse collapse col-lg-12" >
+	          <ul class="nav navbar-nav navbar-right" style="margin-top: -10px; margin-bottom: -10px;">
+	          <!-- Navigation links -->
+	            <li><a href="#about">About</a></li>
+	            <li><a href="#environmentalGallery">Gallery</a></li>
+	           </ul>
+	        </div>
+    	</nav>
+    </div>
+   </div>
+   <!-- bootstrap column size to fit whole screen size -->
+	<div class="header col-xs-12">
+		<div id="imgHeader">
+			<div class="image col-lg-12">
+			<!--image banner across top of website -->
+				<img id="headerImage" src="assets/img/gallery/leightonMossStills/header/20171204_143512.jpg">
+			</div>
+		</div>
+</div>
+<div class="container-fluid"><!--creating a div class that is a full width container that spans the width of any viewport-->
+<!--Start of the About Section-->
+	<div class="col-xs-12">
+		<div id="about">
+			<div class="row">
+				<div class="col-lg-12">
+				<!--paragraph heading -->
+					<h2>About</h2>
+					<!--displays paragraph text onto page -->
+					<p>Field Work is a key component of Geography, Biology and Environment courses at UCLan. It provides students with practical
+					"hands on" experience and enhances material covered in lectures. Students take part in day long excursions and short residential trips throughout their studies, in addition to the opportunity of an extended international field trip in final year.</p>
+					<p>These pages should give you an idea of the variety of locations that we visit.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+<!--Start of the Gallery Section-->
+	<div class="col-xs-12">
+		<div id="environmentalGallery">
+			<div class="row">
+				<div class="col-lg-12">
+					<h2>Gallery</h2>
+<!--Guyana Images-->
+					<h4>Guyana, South America Field Trip</h4>
+					<h5>360° Images</h5>
+					<h6>Turtle Mountain Iwokrama, Guyana</h6>
+					<!--fancybox is the library that has been used to create the image gallery-->
+					<a class="fancybox galleryImages" href="assets/img/tiny/rainforest/index.html" rel="gallery"><img src="assets/img/gallery/thumbnails360/rainforest.jpg"/></a>
+					<!--the first image linked is the full sized image - the image that appears when the image is clicked on-->
+
+					<a class="fancybox galleryImages" href="assets/img/tiny/trees/index.html" rel="gallery"><img src="assets/img/gallery/thumbnails360/trees.jpg"/></a>
+					<!--the second image linked is a thumbnail - the image that appears on the gallery page-->
+
+					<h6>Kaieteur Falls, Guyana</h6>
+					<a class="fancybox galleryImages" href="assets/img/tiny/waterfall/index.html" rel="gallery"><img src="assets/img/gallery/thumbnails360/waterfall.jpg"/></a>
+
+					<h5>Gallery</h5>
+					<a class="fancybox galleryImages" href="assets/img/guyana/IMG_2223.jpg" rel="gallery"><img src="assets/img/guyanaThumbnails/IMG_2223-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" id="thumbnail" href="assets/img/guyana/IMG_2588.jpg" rel="gallery"><img src="assets/img/guyanaThumbnails/IMG_2588-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/guyana/IMG_2747.jpg" rel="gallery"><img src="assets/img/guyanaThumbnails/IMG_2747-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/guyana/IMG_7284.jpg" rel="gallery"><img src="assets/img/guyanaThumbnails/IMG_7284-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/guyana/IMG_7298.jpg" rel="gallery"><img src="assets/img/guyanaThumbnails/IMG_7298-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/guyana/IMG_7460.jpg" rel="gallery"><img src="assets/img/guyanaThumbnails/IMG_7460-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/guyana/IMG_7800.jpg" rel="gallery"><img src="assets/img/guyanaThumbnails/IMG_7800-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" id="thumbnail" href="assets/img/guyana/IMG_7876.jpg" rel="gallery"><img src="assets/img/guyanaThumbnails/IMG_7876-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/guyana/IMG_7928.jpg" rel="gallery"><img src="assets/img/guyanaThumbnails/IMG_7928-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/guyana/P3271663.jpg" rel="gallery"><img src="assets/img/guyanaThumbnails/P3271663-min.jpg"/></a>
+
+
+<!--Scotland Images-->
+					<h4>Scotland (Isle of Rum, Caingorm, Edinburgh) Field Trip</h4>
+					<h5>360° Images</h5>
+					<h6>The Galleried Hall, Kinloch Castle, Isle of Rum, Scotland</h6>
+					<a class="fancybox galleryImages" href="assets/img/tiny/building/index.html" rel="gallery"><img src="assets/img/gallery/thumbnails360/building.jpg"/></a>
+
+					<h6>Hallival, Isle of Rum, Scotland</h6>
+					<a class="fancybox galleryImages" href="assets/img/tiny/hillSky/index.html" rel="gallery"><img src="assets/img/gallery/thumbnails360/hillSky.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/tiny/mountainTop/index.html" rel="gallery"><img src="assets/img/gallery/thumbnails360/mountainTop.jpg"/></a>
+
+					<h5>Gallery</h5>
+					<a class="fancybox galleryImages" href="assets/img/scotland/Calton_Hill_Edinburgh.jpg" rel="gallery"><img src="assets/img/scotlandThumbnails/Calton_Hill_Edinburgh-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" id="thumbnail" href="assets/img/scotland/Descending_from_Askival_Isle_of_Rum.jpg" rel="gallery"><img src="assets/img/scotlandThumbnails/Descending_from_Askival_Isle_of_Rum-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/scotland/Evening_view_of_Canna_from_Guirdil_Isle_of_Rum.jpg" rel="gallery"><img src="assets/img/scotlandThumbnails/Evening_view_of_Canna_from_Guirdil_Isle_of_Rum-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/scotland/Guirdil_Bothy_Isle_of_Rum.jpg" rel="gallery"><img src="assets/img/scotlandThumbnails/Guirdil_Bothy_Isle_of_Rum-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/scotland/Isle_of_Rum_from_Ferry.jpg" rel="gallery"><img src="assets/img/scotlandThumbnails/Isle_of_Rum_from_Ferry-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/scotland/Red_Deer_Project_talk_Kilmory_Isle_of_Rum.jpg" rel="gallery"><img src="assets/img/scotlandThumbnails/The_Galleried_Hall_Kinloch_Castle_Isle_of_Rum-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/scotland/The_Galleried_Hall_Kinloch_Castle_Isle_of_Rum.jpg" rel="gallery"><img src="assets/img/scotlandThumbnails/Red_Deer_Project_talk_Kilmory_Isle_of_Rum-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" id="thumbnail" href="assets/img/scotland/View_across_to_the_Scottish_mainland_from_Hallival_Isle_of_Rum.jpg" rel="gallery"><img src="assets/img/scotlandThumbnails/View_across_to_the_Scottish_mainland_from_Hallival_Isle_of_Rum-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/scotland/View_from_Askival_to_Hallival_Isle_of_Rum.jpg" rel="gallery"><img src="assets/img/scotlandThumbnails/View_from_Askival_to_Hallival_Isle_of_Rum-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/scotland/Students_enjoying_the_snow_at_the_summit_of_Cairngorm_mountain.jpg" rel="gallery"><img src="assets/img/scotlandThumbnails/Students_enjoying_the_snow_at_the_summit_of_Cairngorm_mountain-min.jpg"/></a>
+
+
+
+
+<!--Conwy and Keswick Images-->
+					<h4>First Year Residential (Conwy and Keswick)</h4>
+					<a class="fancybox galleryImages" href="assets/img/conwyAndKeswick/IMG_0831.jpg" rel="gallery"><img src="assets/img/conwayThumbnails/IMG_0831-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/conwyAndKeswick/IMG_0842.jpg" rel="gallery"><img src="assets/img/conwayThumbnails/IMG_0842-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/conwyAndKeswick/IMG_0857.jpg" rel="gallery"><img src="assets/img/conwayThumbnails/IMG_0857-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/conwyAndKeswick/IMG_2632.jpg" rel="gallery"><img src="assets/img/conwayThumbnails/IMG_2632-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/conwyAndKeswick/IMG_3717.jpg" rel="gallery"><img src="assets/img/conwayThumbnails/IMG_3717-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/conwyAndKeswick/IMG_3764.jpg" rel="gallery"><img src="assets/img/conwayThumbnails/IMG_3764-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/conwyAndKeswick/IMG_3955.jpg" rel="gallery"><img src="assets/img/conwayThumbnails/IMG_3955-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/conwyAndKeswick/IMG_3979.jpg" rel="gallery"><img src="assets/img/conwayThumbnails/IMG_3979-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/conwyAndKeswick/IMG_5219.jpg" rel="gallery"><img src="assets/img/conwayThumbnails/IMG_5219-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/conwyAndKeswick/IMG_6095.jpg" rel="gallery"><img src="assets/img/conwayThumbnails/IMG_6095-min.jpg"/></a>
+
+<!--Leighton Moss Images-->
+					<h4>RSPB Leighton Moss Day Visit</h4>
+					<h5>360 Tour</h5>
+					<a class="fancybox galleryImages" href="assets/img/tiny/LeightonMoss360/output/index.html" rel="gallery"><img src="assets/img/gallery/thumbnails360/DSC_0005.jpg"/></a>
+
+					<h5>Gallery</h5>
+					<a class="fancybox galleryImages" href="assets/img/gallery/LeightonMossStills/20171204_143512.jpg" rel="gallery"><img src="assets/img/gallery/LeightonMossStills/thumbnails/20171204_143512-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/gallery/LeightonMossStills/DSC_5833.jpg" rel="gallery"><img src="assets/img/gallery/LeightonMossStills/thumbnails/DSC_5833-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/gallery/LeightonMossStills/DSC_5834.jpg" rel="gallery"><img src="assets/img/gallery/LeightonMossStills/thumbnails/DSC_5834-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/gallery/LeightonMossStills/DSC_5843.jpg" rel="gallery"><img src="assets/img/gallery/LeightonMossStills/thumbnails/DSC_5843-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/gallery/LeightonMossStills/DSC_5845.jpg" rel="gallery"><img src="assets/img/gallery/LeightonMossStills/thumbnails/DSC_5845-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/gallery/LeightonMossStills/DSC_5853.jpg" rel="gallery"><img src="assets/img/gallery/LeightonMossStills/thumbnails/DSC_5853-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/gallery/LeightonMossStills/DSC_5858.jpg" rel="gallery"><img src="assets/img/gallery/LeightonMossStills/thumbnails/DSC_5858-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/gallery/LeightonMossStills/DSC_5866.jpg" rel="gallery"><img src="assets/img/gallery/LeightonMossStills/thumbnails/DSC_5866-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/gallery/LeightonMossStills/DSC_5879.jpg" rel="gallery"><img src="assets/img/gallery/LeightonMossStills/thumbnails/DSC_5879-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/gallery/LeightonMossStills/DSC_5896.jpg" rel="gallery"><img src="assets/img/gallery/LeightonMossStills/thumbnails/DSC_5896-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/gallery/LeightonMossStills/DSC_5904.jpg" rel="gallery"><img src="assets/img/gallery/LeightonMossStills/thumbnails/DSC_5904-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/gallery/LeightonMossStills/DSC_5905.jpg" rel="gallery"><img src="assets/img/gallery/LeightonMossStills/thumbnails/DSC_5905-min.jpg"/></a>
+
+
+<!--Clifton Marsh Images-->
+					<h4>Clifton Marsh Wastewater Treatment Centre Day Visit</h4>
+					<h5>360° Tour</h5>
+					<a class="fancybox galleryImages" href="assets/img/tiny/CliftonMarsh360/output/index.html" rel="gallery"><img src="assets/img/gallery/thumbnails360/DSC_0001.jpg"/></a>
+
+					<h5>Gallery</h5>
+					<a class="fancybox galleryImages" href="assets/img/gallery/cliftonWatewaterStills/20171201_101901.jpg" rel="gallery"><img src="assets/img/gallery/cliftonWatewaterStills/thumbnails/20171201_101901-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/gallery/cliftonWatewaterStills/20171201_101931.jpg" rel="gallery"><img src="assets/img/gallery/cliftonWatewaterStills/thumbnails/20171201_101931-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/gallery/cliftonWatewaterStills/20171201_102006.jpg" rel="gallery"><img src="assets/img/gallery/cliftonWatewaterStills/thumbnails/20171201_102006-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/gallery/cliftonWatewaterStills/20171201_102701.jpg" rel="gallery"><img src="assets/img/gallery/cliftonWatewaterStills/thumbnails/20171201_102701-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/gallery/cliftonWatewaterStills/20171201_102803.jpg" rel="gallery"><img src="assets/img/gallery/cliftonWatewaterStills/thumbnails/20171201_102803-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/gallery/cliftonWatewaterStills/20171201_103318.jpg" rel="gallery"><img src="assets/img/gallery/cliftonWatewaterStills/thumbnails/20171201_103318-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/gallery/cliftonWatewaterStills/20171201_104453.jpg" rel="gallery"><img src="assets/img/gallery/cliftonWatewaterStills/thumbnails/20171201_104453-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/gallery/cliftonWatewaterStills/20171201_104506.jpg" rel="gallery"><img src="assets/img/gallery/cliftonWatewaterStills/thumbnails/20171201_104506-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/gallery/cliftonWatewaterStills/20171201_105338.jpg" rel="gallery"><img src="assets/img/gallery/cliftonWatewaterStills/thumbnails/20171201_105338-min.jpg"/></a>
+
+					<a class="fancybox galleryImages" href="assets/img/gallery/cliftonWatewaterStills/20171201_105340.jpg" rel="gallery"><img src="assets/img/gallery/cliftonWatewaterStills/thumbnails/20171201_105340-min.jpg"/></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<!--Start of the Footer-->
+		<footer class="footer">
+			<!--copyright symbol and copyright name -->
+				<div class="copyright  col-lg-5" style="height:165px">
+					<p id="name">&copy; University of Central Lancashire</p>
+					<p id="createdBy">This website was created by UCLan Students.</p>
+				</div>
+				<!-- social media links to the schools pages -->
+				<div class="social col-lg-2" style="height:165px">
+					<a href="https://www.facebook.com/pg/uclangeog/posts/?ref=page_internal" target="_blank" id="facebook">
+						<!--adding the facebook logo as an image and linking to the facebook page-->
+						<img id="facebook" class="img-responsive img rounded" src="assets/img/socialMedia/facebook.png" alt="Facebook">
+					</a>
+
+					<a href="https://twitter.com/uclangeog?lang=en" target="_blank" id="twitter">
+						<!--adding the twitter logo as an image and linking to the twitter page-->
+						<img id="twitter" class="img-responsive img-rounded" src="assets/img/socialMedia/twitter.png" alt="Twitter">
+					</a>
+				</div>
+
+				<!-- contact details to the university text -->
+				<div class="contactDetails col-lg-5" style="height:165px">
+					<p>UCLan Preston,</p>
+					<p>Lancashire, UK</p>
+					<p>PR1 2HE</p>
+					<p>Tel: +44 (0) 1772 201 201</p>
+				</div>
+		</footer>
+</body>
+</html>
