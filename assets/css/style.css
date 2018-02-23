@@ -68,6 +68,12 @@ p{
 	width: 200px;
 }
 
+#thumbnail{
+	width:100px;
+	margin-right:12px;
+	display: inline-block;
+}
+
 /*carousel styling*/
 .carouselImages{
 	width:70%;
